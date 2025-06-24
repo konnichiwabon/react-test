@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
  interface Actor {
@@ -13,13 +11,6 @@ interface CardProps {
   isCool?: boolean;
   actors?: Actor[];
 }
-
-const num = [1,2,3,5,6]
-
-// for (let i; i < num.length; i++) {
-
-// }
-const test = "otennnnnnnnnn" 
 
 
 const Card = ({title , rating = 0, isCool = false, actors=[]}: CardProps) => {

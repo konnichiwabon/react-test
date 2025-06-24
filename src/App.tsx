@@ -12,7 +12,7 @@ interface CardProps {
   actors?: Actor[];
 }
 
-
+const b = "changee"
 const Card = ({title , rating = 0, isCool = false, actors=[]}: CardProps) => {
   return (
     <div>

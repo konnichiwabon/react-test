@@ -14,13 +14,17 @@ interface CardProps {
   actors?: Actor[];
 }
 
+const num = [1,2,3,5,6]
 
+// for (let i; i < num.length; i++) {
+
+// }
+const test = "testinggg" 
 
 
 const Card = ({title , rating = 0, isCool = false, actors=[]}: CardProps) => {
   return (
     <div>
-       <h2>{title} {rating} {isCool ? "Cool" : "Not cool "}</h2>
       <h2>{title} {rating} {isCool ? "Cool" : "Not cool "}</h2>
     
     {actors.length > 0 && (
@@ -30,6 +34,7 @@ const Card = ({title , rating = 0, isCool = false, actors=[]}: CardProps) => {
       ))}
         </ul>
     )}
+
     </div>
   ) 
 }
@@ -39,7 +44,7 @@ const App = () => {
     <div>s
       <h2>Functional Arrow Component</h2>
       <Card title="One Piece" rating={5} isCool={true} actors={[{name: 'ZORO'}]}/>
-      <Card title="One Piece1" />
+      <Card title="One Piece1" rating={1} />
       <Card title="One Piece2" />
       
 

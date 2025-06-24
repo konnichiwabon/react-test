@@ -19,7 +19,7 @@ const num = [1,2,3,5,6]
 // for (let i; i < num.length; i++) {
 
 // }
-const test = "testinggg" 
+const test = "otennnnnnnnnn" 
 
 
 const Card = ({title , rating = 0, isCool = false, actors=[]}: CardProps) => {
